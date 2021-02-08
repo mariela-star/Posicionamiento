@@ -1,0 +1,11 @@
+.producto {
+  position: relative;
+  display: inline-block;
+}
+.producto__oferta {
+  position: absolute;
+  right: 0;
+  bottom: 18%;
+}
+
+/*# sourceMappingURL=style.css.map */

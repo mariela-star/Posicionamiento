@@ -1,0 +1,85 @@
+.banderas__container {
+  border: 1px solid gray;
+  width: calc(50% - 62px);
+  margin: 80px 30px 0;
+  display: inline-block;
+  height: 346px;
+  position: relative;
+}
+.banderas__container--esp_rojo {
+  background-color: red;
+  height: 100%;
+  z-index: 1;
+}
+.banderas__container--esp_amarillo {
+  background-color: yellow;
+  height: 40%;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  top: 30%;
+}
+.banderas__container--din_rojo {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+.banderas__container--din_rojo .horizontal {
+  position: absolute;
+  background-color: #fff;
+  display: inline-block;
+  width: 100%;
+  height: 10%;
+  top: 45%;
+}
+.banderas__container--din_rojo .vertical {
+  position: absolute;
+  background-color: #fff;
+  display: inline-block;
+  height: 100%;
+  width: 6%;
+  left: 30%;
+}
+.banderas__container--eau-rojo {
+  width: 22%;
+  height: 100%;
+  background-color: red;
+  z-index: 5;
+}
+.banderas__container--eau-colores {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.banderas__container--eau-colores .verde {
+  background-color: green;
+  width: 100%;
+  height: 32%;
+}
+.banderas__container--eau-colores .negro {
+  background-color: #000;
+  width: 100%;
+  height: 33%;
+  position: absolute;
+  bottom: 0;
+}
+.banderas__container--jpn-rojo {
+  border-radius: 50%;
+  background-color: red;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  margin-top: auto;
+  margin-bottom: auto;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

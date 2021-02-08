@@ -1,0 +1,9 @@
+body, p, section, article, footer, a, div, header, main, aside, nav {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contenedor {
+    right: 0;
+    position: absolute;
+  }

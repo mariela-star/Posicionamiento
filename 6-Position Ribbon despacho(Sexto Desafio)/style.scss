@@ -1,0 +1,9 @@
+.producto {
+    position: relative;
+    display: inline-block;
+    &__oferta {
+        position: absolute;
+        right: 0;
+        bottom: 18%;
+    }
+}
